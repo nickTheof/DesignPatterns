@@ -2,6 +2,7 @@
 
 from abc import ABC, abstractmethod
 
+
 class ICarEquipmentFactory(ABC):
     "Abstract Car's Equipment Factory Interface"
 

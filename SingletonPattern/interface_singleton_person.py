@@ -6,6 +6,4 @@ class IPerson(ABC):
     @staticmethod
     @abstractmethod
     def print_data():
-        """ implement in child class"""
-
-
+        """implement in child class"""

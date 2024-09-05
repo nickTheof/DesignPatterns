@@ -21,4 +21,3 @@ class PersonFactory:
         except Exception as _e:
             print(_e)
         return None
-

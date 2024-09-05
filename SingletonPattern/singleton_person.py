@@ -10,7 +10,6 @@ class PersonSingleton(IPerson):
         if PersonSingleton.__instance == None:
             PersonSingleton("Default Name", 0)
         return PersonSingleton.__instance
-    
 
     def __init__(self, name, age) -> None:
         if PersonSingleton.__instance != None:
@@ -20,8 +19,8 @@ class PersonSingleton(IPerson):
             self.age = age
             PersonSingleton.__instance = self
 
-    
     @staticmethod
     def print_data():
-        print(f"Name: {PersonSingleton.__instance.name}, Age: {PersonSingleton.__instance.age}")
-
+        print(
+            f"Name: {PersonSingleton.__instance.name}, Age: {PersonSingleton.__instance.age}"
+        )

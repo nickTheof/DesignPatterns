@@ -1,4 +1,3 @@
-
 "Abstract Factory Use Case Example Code"
 
 from car_equip_factory import CarEquipmentFactory

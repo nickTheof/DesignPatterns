@@ -8,5 +8,3 @@ class Person(ABC):
     @abstractmethod
     def get_info():
         "A static interface method"
-
-
