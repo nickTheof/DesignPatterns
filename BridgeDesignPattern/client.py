@@ -10,4 +10,3 @@ CIRCLE.draw()
 
 SQUARE = Square(SquareImplementer)
 SQUARE.draw()
-

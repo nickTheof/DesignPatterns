@@ -8,4 +8,3 @@ class IShapeImplementer(ABC):
     @abstractmethod
     def draw_implementation():
         """The method that the refined abstractions will implement"""
-        
